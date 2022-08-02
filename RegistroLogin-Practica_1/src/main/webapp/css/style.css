@@ -1,0 +1,96 @@
+/*
+    Created on : 08/05/2022
+    Author     : Irina Medina Sierra
+*/
+/* ------ GOOGLE FONTS ------ */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+/* ----- MATERIAL ICONS ----- */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+/* fuente general para toda la aplicacion: Open Sans */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Se define en la clase header, el alto, la posición relativa del logo y centrado verticalmente*/
+.header{
+    height: 100px;
+    position: relative;
+    vertical-align: center;
+}
+/*  En la etiqueta body se define el color de fondo, gris */
+body {
+    background-color: #F2F2F2;
+}
+/*  En el encabezado, se define una fila de color negro con radio en el borde superior derecho e izquierdo*/
+.negro {
+    background-color: #2B2B2D;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* Clase .naranja que define el color naranja que se utiliza en el proyecto*/
+.naranja {
+    color: #ffb500;
+}
+/*  Clase .boton, que define el color verde de todos los botones que se utilizan*/
+
+.boton{
+    background-color: #3ea792;
+}
+/*  Clase icono que define todos los colores y tamaño de fuente que utilizan los iconos de material-icos */
+.iconos{
+    color:#3ea792;
+    font-size: 30px;
+}
+/*  Clase iconos-crud ue define todos los colores y tamaño de fuente que utilizan los iconos del CRUD de material-icos*/
+.iconos-crud{
+    color:#3ea792;
+    font-size: 20px;
+}
+.iconos-crud:hover,.iconos:hover{
+    color:#ffb500;
+}
+
+/* Estilo especial que se le da a las etiquetas input del formulario de registro*/
+input[type="text"], input[type="email"],input[type="password"] {
+    border-bottom: 1px solid #3ea792 !important;
+    border-radius: 0 !important;
+}
+.subtexto {
+    font-size: 13px !important;
+}
+input[type="email"]::placeholder{
+    text-transform: uppercase;
+}
+/*Estilo especial que se le da al mensaje de error o de exito en el crud*/
+.mensaje{
+    height: 50px;
+}
+/* Estilo que se le da al nombre que se logea en el CRUD*/
+.nombre{
+    top:5%;
+    right: 1%;
+    position: absolute;
+}
+/* Posicion absoluta que tienen los iconos del header*/
+.iconosH{
+    position: absolute;
+}
+/*Posición  especial que tienen los iconos de la impresora y de salida del Header*/
+.printer{
+    right: 15%;
+}
+.exit{
+    right: 10%;
+}
+/* Estilo que se le da a todos los enlaces del proyecto, para que no tengan subrayado */
+a:link, a:visited, a:active {
+    text-decoration:none!important;
+    color: #3ea792;
+}
+a:hover{
+    color:#ffb500;
+}
+
+.alto {
+    height: 650px;
+}
+

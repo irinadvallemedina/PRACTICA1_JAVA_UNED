@@ -1,0 +1,22 @@
+000: Existe  una incidencia al realizar la Consulta UsuarioDAO/metodo:validar.
+001: Existe una incidencia en la Base de Datos UsuarioDAO/validar.
+002: Existe  una incidencia al realizar la Consulta UsuarioDAO/validar usuario
+003: Existe una incidencia en la Base de Datos UsuarioDAO/validarUsuario
+004: Existe  una incidencia al realizar la Consulta UsuarioDAO/validarEmail-
+005: Existe una incidencia en la Base de Datos UsuarioDAO/validar email-.
+006: Existe  una incidencia al realizar la Consulta UsuarioDAO/registrar
+007: Existe una incidencia en la Base de Datos  UsuarioDAO/registrar
+008: Existe  una incidencia al realizar la Consulta UsuarioDAO/listar
+009: Existe una incidencia en la Base de Datos UsuarioDAO/listar-
+010: Existe  una incidencia al realizar la Consulta UsuarioDAO/seleccioanrUsuario
+011: Existe una incidencia en la Base de Datos UsuarioDAO/seleccioanrUsuario
+012: Existe  una incidencia al realizar la Consulta UsuarioDAO/borrar
+013: Existe una incidencia en la Base de Datos UsuarioDAO/borrar
+014: Existe  una incidencia al realizar la Consulta UsuarioDAO/actualizar
+015: Existe una incidencia en la Base de Datos UsuarioDAO/actualizar
+016: SQLException departamentoDAO.java
+017: Exception departamentoDAO.java
+018: SQLException de conexion.java
+019: ClassNotFoundException de conexion.java
+020: SQLException estadoDeLaCuentaDAO.java
+021: Exception estadoDeLaCuentaDAO.java
